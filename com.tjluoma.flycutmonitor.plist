@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+	<string>com.tjluoma.flycutmonitor</string>
+	<key>LingonWhat</key>
+	<string>/usr/local/bin/flycutmonitor.sh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/flycutmonitor.sh</string>
+	</array>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Users/luomat/Dropbox/Preferences/com.generalarcade.flycut.plist</string>
+	</array>
+</dict>
+</plist>
