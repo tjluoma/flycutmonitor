@@ -1,7 +1,7 @@
-saveflycut
+flycutmonitor
 ==========
 
-Shell script and launchd plist to save your pasteboard
+Shell script and launchd plist to save your pasteboard whenever Flycut saves a new clipboard
 
 
 ## ! NOTE !
@@ -10,8 +10,8 @@ You ***must*** edit the file `com.tjluoma.flycutmonitor.plist` before using it!
 
 Change the line:
 
-  	<string>/Users/luomat/Dropbox/Preferences/com.generalarcade.flycut.plist</string>
+  	<string>/Users/luomat/Library/Application Support/Flycut/com.generalarcade.flycut.plist</string>
 
-to point to wherever the `com.generalarcade.flycut.plist` file is on your computer.
+Specifically, change `luomat` to whatever your username is on your local Mac.
 
 **Otherwise this will not work!**
